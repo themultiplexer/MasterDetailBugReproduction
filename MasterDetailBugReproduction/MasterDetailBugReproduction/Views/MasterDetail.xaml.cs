@@ -12,6 +12,8 @@ namespace MasterDetailBugReproduction.Views
         public MasterDetail()
         {
             InitializeComponent();
+            Detail = new NavigationPage(new DetailPage());
+            Master = new MasterPage();
         }
     }
 }

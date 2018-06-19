@@ -1,20 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="MasterDetailBugReproduction.Views.MasterDetail"
-		     Title="New Item">
-    <MasterDetailPage.Master>
-        <ContentPage Title="Menu">
-            <Label Text="Menu" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
-        </ContentPage>
-    </MasterDetailPage.Master>
-    <MasterDetailPage.Detail>
-        <NavigationPage>
-            <NavigationPage.RootPage>
-                <ContentPage Title="Detail">
-                    <Label Text="Detail" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
-                </ContentPage>
-            </NavigationPage.RootPage>
-        </NavigationPage>
-    </MasterDetailPage.Detail>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  x:Class="MasterDetailBugReproduction.Views.MasterDetail">
+    
 </MasterDetailPage>

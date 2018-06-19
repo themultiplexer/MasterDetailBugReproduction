@@ -12,8 +12,6 @@ namespace MasterDetailBugReproduction
 		public App ()
 		{
 			InitializeComponent();
-
-
 			MainPage = new MasterDetail();
 		}
 
